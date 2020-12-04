@@ -5,6 +5,7 @@ import org.apache.flink.table.api.{EnvironmentSettings, TableEnvironment}
 /*
 blink的sql
 kafka2mysql
+使用sql统计pv、uv
  */
 object Demo09_kafka2sql_blink_2004 {
   def main(args: Array[String]): Unit = {
